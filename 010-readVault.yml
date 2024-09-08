@@ -1,5 +1,5 @@
 - name: Reading secrets from vault 
-  hosts: all 
+  hosts: localhost
   tasks:  
     - name: Reading secret 
       ansible.builtin.debug: 
