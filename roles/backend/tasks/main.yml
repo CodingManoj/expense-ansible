@@ -40,7 +40,7 @@
     state: import
     name: all
     target: /app/schema/backend.sql
-    login_user: root
+    login_user: "{{SECRETS.MYSQL_USER}}"
     login_password: "{{SECRETS.MYSQL_PASS}}"
     login_host: "mysql-{{ENV}}.expense.internal"
 
